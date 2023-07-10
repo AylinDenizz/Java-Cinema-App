@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c33f7179-c4ab-43fd-94ca-5876ffee2b28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/Class Tanimi/Class Tanimi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/DersAlistirmasi/Ders201.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Cin Zodyagi/Cin Zodyagi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Daire Alani/Daire Alani.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Desene gore metot/Desene gore metot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Fibonacci/Fibonacci.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Hava Sicakligi/Hava Sicakligi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Hesap Makinesi/Hesap Makinesi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Kullanici Girisi/Kullanici Girisi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Manav Kasa/Manav Kasa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/OgrenciBilgiSistemi/Ogrenci Bilgi Sistemi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Palindrom/Palindrom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Recursive-Uslu Sayilar/Recursive-Uslu Sayilar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Sayilari Siralama/Sayilari Siralama.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Sinif Gecme/Sinif Gecme.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/Taksimetre/Alistirma.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/artik yil/artik yil.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/ucak bileti/ucak bileti.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/PatikaAlistirmalar/uslu sayilar/uslu sayilar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/Ödevler/Odev01/JavaAlistirmalar.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaAlistirmalar-main/Ödevler/Odev02/Odev02.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2SLQ11R02Y3NRD6knlcBKmD9gbo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/aylin/OneDrive/Masaüstü/Allianz-BackendHomeworks/java-cinema-management-system",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c33f7179-c4ab-43fd-94ca-5876ffee2b28" name="Changes" comment="" />
+      <created>1688923166289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688923166289</updated>
+      <workItem from="1688923167382" duration="6444000" />
+      <workItem from="1688930049984" duration="1330000" />
+      <workItem from="1688931422874" duration="8022000" />
+      <workItem from="1688941452652" duration="5611000" />
+      <workItem from="1688986107996" duration="10695000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
