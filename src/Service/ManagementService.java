@@ -14,8 +14,13 @@ import static java.lang.Integer.parseInt;
 
 public class AdminService {
 
+
+
     public static void AdminLoop () {
         Scanner sc = new Scanner(System.in);
+        List<Category> categoryList = new ArrayList<>();
+        List<Film> filmList = new ArrayList<>();
+        List<Platform> platformList = new ArrayList<>();
 
         while (true) {
 
@@ -28,7 +33,7 @@ public class AdminService {
                 platform.setPlatform(platformName);
                 platforms.add(platform);
                 PlatformService platformService = new PlatformService();
-                platformService.AddPlatform(platform);
+                platformService.AddPlatform(platformList,platform);
 
                 System.out.println("Do you want to enter another movie platform.Type \"yes\" or \"no\" ");
                 String platformAnswer = sc.next();
@@ -45,6 +50,7 @@ public class AdminService {
 
             List<Category> categories;
             while (true) {
+
                 System.out.println("Please enter a movie category:");
                 String categoryName = sc.next();
                 categories = new ArrayList<>();
@@ -52,7 +58,7 @@ public class AdminService {
                 category.setcategoryName(categoryName);
                 categories.add(category);
                 CategoryService categoryService = new CategoryService();
-                categoryService.AddCategory(category);
+                categoryService.AddCategory(categoryList, category);
 
                 System.out.println("Do you want to enter another movie category.Type \"yes\" or \"no\" ");
                 String categoryAnswer = sc.next();
@@ -102,10 +108,9 @@ public class AdminService {
 
 
             FilmService filmService = new FilmService();
-            filmService.AddFilmList(movieName, yearchanged, director, imdbnotechanged, categories, showTimes, platforms);
+            filmService.AddFilmList(filmList, movieName, yearchanged, director, imdbnotechanged, categories, showTimes, platforms);
             System.out.println("Do you want to enter another movie.Type \"yes\" or \"no\" ");
             String movieAnswer = sc.next();
-            filmService.filmLists.toString();
             if (movieAnswer.equals("no")) {
                 break;
             } else if (movieAnswer.equals("yes")) {
@@ -114,7 +119,19 @@ public class AdminService {
                 System.out.println("Please dont enter anything other then \"yes\" or \"no\" .");
             }
 
+
         }
+    }
+    public void GetCategoryList(List<Category> categoryList) {
+        for (int i = 0; i < categoryList.size(); i++) {
+            System.out.println(i + categoryList.get(i).getCategoryName() + "Movie Count:" + categoryList.get(i).getFilm_Count() + " films");
+        }
+    }
+
+    public Category GetCategoryByNum(List<Category> categoryList,int categoryNum) {
+        Category category = categoryList.get(categoryNum - 1);
+        return category;
+
     }
 }
 
