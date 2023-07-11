@@ -8,9 +8,7 @@ import java.util.List;
 
 public class PlatformService {
 
-    List<Platform> platformList = new ArrayList<>();
-
-    public boolean comparePlatform(Platform enteredPlatform) {
+    public boolean comparePlatform(List<Platform> platformList, Platform enteredPlatform ) {
         boolean compare = false;
         for (Platform platform : platformList) {
             String platformName = enteredPlatform.getPlatform();
@@ -24,11 +22,13 @@ public class PlatformService {
         return compare;
     }
 
-    public void AddPlatform(Platform enteredPlatform) {
-        if (!comparePlatform(enteredPlatform)) {
+    public void AddPlatform(List<Platform> platformList, Platform enteredPlatform, List<Platform> platforms) {
+        if (!comparePlatform(platformList, enteredPlatform)) {
+            platforms.add(enteredPlatform);
             platformList.add(enteredPlatform);
-        } else if (comparePlatform(enteredPlatform)) {
-            platformList = platformList;
+        } else if (comparePlatform(platformList, enteredPlatform)) {
+            platforms = platforms;
         }
     }
 }
+

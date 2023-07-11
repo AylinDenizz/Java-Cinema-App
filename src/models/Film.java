@@ -12,17 +12,8 @@ public class Film {
     private List<ShowTime> ShowTimeArrayList;
     private List<Platform> PlatformArrayList;
 
-    public Film(String movieName, int year, String directory, double imdbnote, List<Category> categoryArrayList, List<ShowTime> showTimeArrayList, List<Platform> platformArrayList) {
-        this.movieName = movieName;
-        this.year = year;
-        this.directory = directory;
-        this.imdbnote = imdbnote;
-        CategoryArrayList = categoryArrayList;
-        ShowTimeArrayList = showTimeArrayList;
-        PlatformArrayList = platformArrayList;
-    }
-
     public String getmovieName() {
+
         return movieName;
     }
 
